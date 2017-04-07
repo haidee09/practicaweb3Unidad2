@@ -1,0 +1,86 @@
+/*Fuentes*/
+@font-face{
+     font-family: "NewRocker";
+     src: local("?"), url("./fonts/NewRocker.ttf") format("truetype");
+}
+@font-face{
+     font-family: "Shojumaru";
+     src: local("?"), url("./fonts/Shojumaru.ttf") format("truetype");
+}
+@font-face{
+     font-family: "BuxtonSketch";
+     src: local("?"), url("./fonts/BuxtonSketch.ttf") format("truetype");
+}
+/*Tamaño de caja*/
+.caja{
+    height: 500px;
+}
+/*letra tamaño y ubicación*/
+.txt{
+    padding-top: 150px;
+    text-align: center;
+}
+.uno{
+    font-size: 50px;
+}
+.dos{
+    font-size: 80px;
+}
+.tres{
+    font-size: 70px;
+}
+/*Letra y ubicacion de la caja*/
+.cajaMediana{
+    font-family:Shojumaru;
+    padding-left: 25%;
+}
+.cajaGrande{
+    font-family:BuxtonSketch;
+    padding-left: 15%;  
+}
+.cajaExtragrande{
+    font-family:NewRocker;
+    padding-left: 8%;
+    
+}
+.cja{
+    padding-top: 40px;
+}
+/*Bordes animados*/
+section div div{
+    transition: all 1s;
+}
+.bordeMediana{
+    outline: 2px dashed #b71c1c;
+    box-shadow: 0 0 0 2px #f9a825; 
+}
+.bordeMediana:hover {
+  outline: 24px dashed #f9a825;
+  box-shadow: 0 0 0 24px #b71c1c;
+}
+.bordeGrande{
+  outline: 24px dashed #C92620;
+  box-shadow: 0 0 0 24px #66bb6a;
+}
+.bordeGrande:hover {
+  outline-color: #66bb6a;
+  box-shadow: 0 0 0 24px #C92620;
+}
+.bordeExtragrande{
+  outline: 24px dashed #024B7F;
+  box-shadow: 0 0 0 24px #01FCCF;
+}
+.bordeExtragrande:hover{
+  outline: 2px dashed #01FCCF;
+  box-shadow: 0 0 0 2px #024B7F;
+}
+#titulonavbar{
+  padding-left: 3%;
+}
+#navbar{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  font-family: 'Patrick Hand', cursive;
+}
