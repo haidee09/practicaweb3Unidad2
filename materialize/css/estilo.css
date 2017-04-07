@@ -1,15 +1,15 @@
 /*Fuentes*/
 @font-face{
      font-family: "NewRocker";
-     src: local("?"), url("./fonts/NewRocker.ttf") format("truetype");
+     src: local("?"), url("fonts/NewRocker.ttf") format("truetype");
 }
 @font-face{
      font-family: "Shojumaru";
-     src: local("?"), url("./fonts/Shojumaru.ttf") format("truetype");
+     src: local("?"), url("fonts/Shojumaru.ttf") format("truetype");
 }
 @font-face{
      font-family: "BuxtonSketch";
-     src: local("?"), url("./fonts/BuxtonSketch.ttf") format("truetype");
+     src: local("?"), url("fonts/BuxtonSketch.ttf") format("truetype");
 }
 /*Tamaño de caja*/
 .caja{
